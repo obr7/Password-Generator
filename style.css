@@ -1,0 +1,62 @@
+body{
+    font-family: "Cal Sans", sans-serif;
+    font-style: normal;
+    color: white;
+    background-color: #1F2937;
+
+    /* padding-top: 5rem;
+    padding-left: 44rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+span{
+    display: block;
+    font-family: "Barriecito", system-ui;
+    color: #0EA5E9;
+    font-style: unset;
+}
+
+p {
+    font-family: monospace;
+    font-size: large;
+}
+
+button {
+    background-color: #374151;
+    color: #0EA5E9;
+    border-style: hidden;
+    border-radius: 3px;
+    width: 12rem;
+    height: 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkboxes {
+    margin: 1rem 0rem 1rem 0rem;
+}
+.generateButton {
+    background-color: #0EA5E9;
+    color: white;
+    margin-left: 0.1rem;
+    display: block;
+}
+
+.line {
+    background-color: #374151;
+    height: 0.1rem; 
+    width: 25rem;
+
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.passwords{
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
